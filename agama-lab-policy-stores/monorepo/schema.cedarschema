@@ -13,6 +13,8 @@ namespace Jans {
 
   type TokensContext = {
     jans_access_token?: Jans::Access_token,
+    jans_id_token?: Jans::id_token,
+    jans_userinfo_token?: Jans::Userinfo_token,
     total_token_count: Long
   };
 
